@@ -13,8 +13,7 @@ public class RecursionTest {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
- 
+
 		if(args.length <= 0 ){
 			System.out.println("没有要计算的数字！");
 			System.exit(0);
