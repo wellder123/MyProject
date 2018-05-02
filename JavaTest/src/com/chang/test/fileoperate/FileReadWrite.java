@@ -17,7 +17,7 @@ public class FileReadWrite {
 		BufferedReader br = null;
 		BufferedWriter out = null;  
 		try {
-			br = new BufferedReader(new FileReader("d:/aadev_lge/workspace/JavaTest/war/FileTest/test_file.txt"));
+			br = new BufferedReader(new FileReader("d:/eclipse/git/JavaTest/war/FileTest/test_file.txt"));
 			String line;
 			line = br.readLine(); 
 			while(line != null){
@@ -25,7 +25,7 @@ public class FileReadWrite {
 				line = br.readLine(); 
 			}
 			
-			File writename = new File("d:/aadev_lge/workspace/JavaTest/war/FileTest/test_file2.txt"); 
+			File writename = new File("d:/eclipse/git/JavaTest/war/FileTest/test_file2.txt"); 
 			if(!writename.exists()){
 				writename.createNewFile();
 			}
