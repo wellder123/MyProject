@@ -18,6 +18,7 @@ public class CharConvert {
 					c0[i] -= 26;
 			}
 		}
+		System.out.println(String.valueOf(c0));
 		System.out.println(Arrays.toString(c0));// [f, g, c, d, e]
 	}
 
