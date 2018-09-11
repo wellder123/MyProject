@@ -21,11 +21,11 @@ public class RecursionTest {
 		
 		//System.out.println(RabbitQueue.calSum(Integer.valueOf(args[0])));
 		
-		/*File f = new File("d:/aadev_lge/workspace/JavaTest/war");
-		System.out.println(f.getName());
-		FileList.list(f,1);*/
+//		File f = new File("d:/eclipse/workspace/JavaTest/JavaTest/war");
+//		System.out.println(f.getName());
+//		FileList.list(f,1);
 		
-		System.out.println(factorial.multi(Integer.valueOf(args[0])));
+		//System.out.println(factorial.multi(Integer.valueOf(args[0])));
 	}
 	
 }
